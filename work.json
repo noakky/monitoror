@@ -14,10 +14,11 @@
     },
     {
       "type": "HTTP-STATUS",
-      "params": {
       "label": "Служба поддержки HESK",
+      "params": {      
       "url": "http://hesk.chelonco.ru/admin/index.php",
-      "statusCodeMax": 299
+      "statusCodeMax": 299 
+      }
     }
   ]
 }
