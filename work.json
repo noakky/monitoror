@@ -1,11 +1,12 @@
 {
   "version": "2.0",
-  "columns": 6,
+  "columns": 4,
   "tiles": [
     {
-      "type": "PING",
+      "type": "HTTP-STATUS",
       "label": "Сайт chelonco.ru",
-      "params": { "hostname": "chelonco.ru" }
+      "params": {  
+      "url": "http://www.chelonco.ru/new/", "statusCodeMax": 299 }
     },
     {
       "type": "PORT",
@@ -15,10 +16,26 @@
     {
       "type": "HTTP-STATUS",
       "label": "Служба поддержки HESK",
-      "params": {      
-      "url": "http://hesk.chelonco.ru/admin/index.php",
-      "statusCodeMax": 299 
-      }
+      "params": {  
+      "url": "http://hesk.chelonco.ru/admin/index.php", "statusCodeMax": 299 }
+    },
+    {
+      "type": "HTTP-STATUS",
+      "label": "NAS Synology ПЭТ",
+      "params": {  
+      "url": "http://pet.chelonco.ru", "statusCodeMax": 299 }
+     },
+     {
+      "type": "HTTP-STATUS",
+      "label": "NAS Synology Главный",
+      "params": {  
+      "url": "http://nas.chelonco.ru", "statusCodeMax": 299 }
+     },
+     {
+      "type": "PORT",
+      "label": "SSTP VPN Service",
+      "params": { "hostname": "rdp.chelonco.ru", "port": 443 }
+     }
     }
   ]
 }
