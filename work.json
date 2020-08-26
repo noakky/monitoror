@@ -1,0 +1,16 @@
+{
+  "version": "2.0",
+  "columns": 2,
+  "tiles": [
+    {
+      "type": "PING",
+      "label": "Сайт chelonco.ru",
+      "params": { "hostname": "chelonco.ru" }
+    },
+    {
+      "type": "PORT",
+      "label": "Juniper SRX SSH Service",
+      "params": { "hostname": "nas.chelonco.ru", "port": 22 }
+    }
+  ]
+}
