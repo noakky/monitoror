@@ -29,12 +29,27 @@
       "type": "HTTP-STATUS",
       "label": "NAS Synology Главный",
       "params": {  
-      "url": "http://nas.chelonco.ru", "statusCodeMax": 299 }
+      "url": "http://nas.chelonco.ru:5000", "statusCodeMax": 299 }
      },
      {
       "type": "PORT",
       "label": "SSTP VPN Service",
       "params": { "hostname": "rdp.chelonco.ru", "port": 443 }
+     },
+     {
+      "type": "PORT",
+      "label": "Видеонаблюдение VS01",
+      "params": { "hostname": "vs01.chelonco.ru", "port": 19786 }
+     },   
+     {
+      "type": "PORT",
+      "label": "Видеонаблюдение VS02",
+      "params": { "hostname": "rdp.chelonco.ru", "port": 29786 }
+     },
+     {
+      "type": "PORT",
+      "label": "Видеонаблюдение VS03",
+      "params": { "hostname": "rdp.chelonco.ru", "port": 39786 }
      }
   ]
 }
