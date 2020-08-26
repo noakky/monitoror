@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "columns": 2,
+  "columns": 6,
   "tiles": [
     {
       "type": "PING",
