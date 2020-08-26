@@ -36,6 +36,5 @@
       "label": "SSTP VPN Service",
       "params": { "hostname": "rdp.chelonco.ru", "port": 443 }
      }
-    }
   ]
 }
