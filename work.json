@@ -11,6 +11,13 @@
       "type": "PORT",
       "label": "Juniper SRX SSH Service",
       "params": { "hostname": "nas.chelonco.ru", "port": 22 }
+    },
+    {
+      "type": "HTTP-STATUS",
+      "params": {
+      "label": "Служба поддержки HESK",
+      "url": "http://hesk.chelonco.ru/admin/index.php",
+      "statusCodeMax": 299
     }
   ]
 }
