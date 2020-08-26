@@ -1,0 +1,16 @@
+{
+  "version": "2.0",
+  "columns": 2,
+  "tiles": [
+    {
+      "type": "PING",
+      "label": "home.noakky.ru",
+      "params": { "hostname": "home.noakky.ru" }
+    },
+    {
+      "type": "PORT",
+      "label": "Plex Home",
+      "params": { "hostname": "home.noakky.ru", "port": 443 }
+    }
+  ]
+}
