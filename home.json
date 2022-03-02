@@ -11,6 +11,16 @@
       "type": "PORT",
       "label": "Plex Home",
       "params": { "hostname": "home.noakky.ru", "port": 443 }
+    },
+    {
+      "type": "PORT",
+      "label": "Deluge",
+      "params": { "hostname": "deluge.noakky.ru", "port": 443 }
+    },
+    {
+      "type": "PORT",
+      "label": "Portainer",
+      "params": { "hostname": "portainer.noakky.ru", "port": 443 }
     }
   ]
 }
